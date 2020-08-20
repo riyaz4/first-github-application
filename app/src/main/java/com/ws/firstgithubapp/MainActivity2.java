@@ -5,15 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-
-    TextView textView;
+public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
-        textView = findViewById(R.id.text);
+        TextView t = findViewById(R.id.text);
     }
 }
